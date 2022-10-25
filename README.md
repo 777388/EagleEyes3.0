@@ -5,4 +5,6 @@ Differential check of Website from self viewable listing of site to root server 
 
 if running on Linux, delete all instances of wsl from the code.
 
+Requires GAU, thats forked on my repitories
+
 usage: python3 eagleeyes.py domainname.com
