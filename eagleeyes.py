@@ -74,8 +74,8 @@ if __name__ =="__main__":
     for i in range(13):
         print("Choice"+str(i)+" :"+str(ips[i]))
     threads("127.0.0.1")
-    file1.close()
     os.system("node singlecollision.js")
+    file1.close()
 
     print("Which dimension would you like to be in? pick 0 through 12")
     x = input()
