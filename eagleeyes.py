@@ -79,6 +79,6 @@ if __name__ =="__main__":
     print("Which dimension would you like to be in? pick 0 through 12")
     x = input()
     while True:
-        os.popen("wsl dig +trace "+str(ips[x])).read()
-        print("Connected to:"+str(ips[x]), end="\r", flush=True)
+        os.popen("wsl dig +trace "+str(ips[int(x)])).read()
+        print("Connected to:"+str(ips[int(x)]), end="\r", flush=True)
 
